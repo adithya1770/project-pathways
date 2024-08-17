@@ -38,9 +38,9 @@ const TitleBar = () => {
       <p className='text-white lg:text-8xl eb-garamond-400 absolute lg:top-72 lg:left-64 text-5xl top-72 left-4'>hiStrangeUser( );</p>
       <p className='ibm-plex-mono-medium lg:mt-64 lg:m-64 lg:mb-0 lg:sticky absolute top-80 m-8'><strong className='text-3xl eb-garamond-400'>H</strong>ey, I’m Adithya! I’m a CS student and a programmer in training. I’ve built an indie music app and a farmers portal—kind of like the “I’ll do it myself” meme, but with code. Right now, I’m diving into web development and app development. I’m also working on a personal website to share my coding journey. <a className="underline italic text-2xl font-bold" href="/main">Travel With Me!</a></p>
       <footer className='absolute lg:left-162 lg:bottom-10 bottom-2'>
-          <a href="mailto:adithyaps929@gmail.com?subject=Query I had!"><span class="material-symbols-outlined"><p className='text-5xl lg:m-4 lg:mb-0 ml-4 m-2'>mail</p></span></a>
-          <a href=""><span class="material-symbols-outlined"><p className='text-5xl lg:m-4 lg:mb-0 m-2'>forum</p></span></a>
-          <a href="/resume"><span class="material-symbols-outlined"><p className='text-5xl lg:m-4 lg:mb-0 m-2'>person_book</p></span></a>
+          <a href="mailto:adithyaps929@gmail.com?subject=Query I had!"><span className="material-symbols-outlined"><p className='text-5xl lg:m-4 lg:mb-0 ml-4 m-2'>mail</p></span></a>
+          <a href=""><span className="material-symbols-outlined"><p className='text-5xl lg:m-4 lg:mb-0 m-2'>forum</p></span></a>
+          <a href="/resume"><span className="material-symbols-outlined"><p className='text-5xl lg:m-4 lg:mb-0 m-2'>person_book</p></span></a>
       </footer>
     </main>
   )
