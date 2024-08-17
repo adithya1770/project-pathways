@@ -5,7 +5,7 @@ import Image from 'next/image'
 const page = () => {
   return (
     <div>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,200&display=optional" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,200" />
         <div class="screen">
             <div class="road"></div>
         </div>
@@ -34,7 +34,7 @@ const page = () => {
             <a href="/main/iot">
             <div className='absolute lg:right-80 lg:top-64 top-10 right-2 lg:h-64 lg:w-64 h-32 w-32'>
             <Image
-                src="https://cpc.farnell.com/wcsstore/ExtendedSitesCatalogAssetStore/cms/asset/images/europe/cpc/storefronts/raspberry-pi/RPi-Logo-White.webp"
+                src="https://cdn-icons-png.freepik.com/512/5969/5969235.png"
                 height={200}
                 width={200} 
                 />
