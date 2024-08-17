@@ -5,7 +5,7 @@ import Image from 'next/image'
 const page = () => {
   return (
     <div>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,200&display=optional" />
         <div class="screen">
             <div class="road"></div>
         </div>

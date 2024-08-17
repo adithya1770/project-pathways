@@ -29,7 +29,7 @@ const Page = () => {
 
   return (
     <div className="flex flex-wrap justify-center">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&display=optional" />
       {repos.map((repo) => (
         <div key={repo.id} className='ibm-plex-mono-medium lg:h-72 lg:w-110 grad lg:ml-10 bg-white m-4 rounded-xl shadow-md hover:border-cyan-400'>
           <p className='ibm-plex-mono-medium text-3xl lg:ml-2 lg:mt-4 ml-2 text-black font-extrabold'>{repo.name}</p>
@@ -43,7 +43,7 @@ const Page = () => {
         </div>
       ))}
       <a href="/">
-      <span className="material-symbols-outlined"><p className='text-4xl absolute lg:bottom-4 right-40 lg:right-8 lg:h-12 lg:w-12 lg:pl-1 lg:rounded-3xl lg:text-black lg:bg-white'>home</p></span>
+      <span class="material-symbols-outlined"><p className='text-4xl absolute lg:bottom-4 right-40 lg:right-8 lg:h-12 lg:w-12 lg:pl-1 lg:rounded-3xl lg:text-black lg:bg-white'>home</p></span>
       </a>
     </div>
   );

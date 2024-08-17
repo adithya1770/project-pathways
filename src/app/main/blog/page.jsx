@@ -15,7 +15,7 @@ const page = () => {
       </header>
       {
         Data.map((snippet) => (
-          <div className='lg:w-224 text-white bg-white lg:mt-14 lg:ml-80 rounded-xl font-mono m-10 mt-40 pb-2 lg:pb-10'>
+          <div key={snippet.key} className='lg:w-224 text-white bg-white lg:mt-14 lg:ml-80 rounded-xl font-mono m-10 mt-40 pb-2 lg:pb-10'>
             <br />
             <details className='lg:m-10 bgm rounded-2xl lg:p-6 m-2'>
               <summary className='font-bold lg:text-3xl m-4 text-4xl pt-4'>

@@ -4,7 +4,7 @@ import Image from 'next/image'
 const page = () => {
   return (
     <div>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&display=optional" />
       <Image
       src="https://github.com/adithya1770/embedded-with-pi/raw/main/raspy1.jpeg" 
       width={500}
