@@ -20,7 +20,7 @@ const Page = () => {
     const fetchData = async () => {
       const data = await gitInfo();
       if (data) {
-        const jsRepo = data.filter(repo => repo.name === "learn-native");
+        const jsRepo = data.filter(repo => repo.name === "learn-native" && repo.name === "beehive");
         setRepos(jsRepo);
       }
     };
