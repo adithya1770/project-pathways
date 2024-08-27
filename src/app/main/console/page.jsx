@@ -20,7 +20,7 @@ const Page = () => {
     const fetchData = async () => {
       const data = await gitInfo();
       if (data) {
-        const jsRepo = data.filter(repo => repo.name === "canopy-chaos");
+        const jsRepo = data.filter(repo => repo.language === 'C' || repo.language === 'c');
         setRepos(jsRepo);
       }
     };
