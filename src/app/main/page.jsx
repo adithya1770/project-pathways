@@ -38,7 +38,7 @@ const page = () => {
                 height={200}
                 width={200} 
                 />
-                <p className='ibm-plex-mono-medium lg:text-2xl text-xl ml-5 mt-4'>Automation Projects</p>
+                <p className='ibm-plex-mono-medium lg:text-2xl text-xl ml-2 mt-4'>Automation Projects</p>
             </div>
             </a>
             <a href="/main/console">
