@@ -8,8 +8,9 @@ const resume = () => {
       src="/resume.png" 
       width={700}
       height={400}
-      className="ml-120"
+      className="lg:ml-110 lg:mt-10 mt-32"
       />
+      
     </div>
   )
 }

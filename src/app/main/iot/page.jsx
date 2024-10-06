@@ -47,9 +47,11 @@ const Page = () => {
         Gallery of Projects
       </p>
       </a>
+      <div className="bg-white h-20 w-full border-2 border-black">
       <a href="/">
-      <span className="material-symbols-outlined"><p className='text-4xl absolute lg:bottom-4 right-40 lg:right-8 lg:h-12 lg:w-12 lg:pl-1 lg:rounded-3xl lg:text-black lg:bg-white'>home</p></span>
+      <span className="material-symbols-outlined"><p className='text-4xl absolute lg:bottom-4 right-40 lg:right-8 lg:h-12 lg:w-12 lg:pl-1 lg:rounded-3xl text-black lg:bg-white'>home</p></span>
       </a>
+      </div>
     </div>
   );
 };

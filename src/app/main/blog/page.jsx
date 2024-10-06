@@ -13,9 +13,10 @@ const page = () => {
       <h1 className='lg:text-9xl lg:ml-135 lg:mt-10 ibm-plex-mono-medium text-9xl mt-10'>Blogs</h1>
       <h1 className='text-8xl absolute lg:top-10 lg:left-20'>:)</h1>
       </header>
+      <div className="mt-40">
       {
         Data.map((snippet) => (
-          <div key={snippet.key} className='lg:w-224 text-white bg-white lg:mt-14 lg:ml-80 rounded-xl font-mono m-10 mt-40 pb-2 lg:pb-10'>
+          <div key={snippet.key} className='lg:w-224 text-white bg-white lg:mt-14 lg:ml-80 rounded-xl font-mono m-10 mt-12 pb-2 lg:pb-10'>
             <br />
             <details className='lg:m-10 bgm rounded-2xl lg:p-6 m-2'>
               <summary className='font-bold lg:text-3xl m-4 text-4xl pt-4'>
@@ -36,9 +37,12 @@ const page = () => {
           </div>
         ))
       }
+      </div>
+      <div className="bg-white h-20 w-full border-2 border-black">
       <a href="/">
-      <span className="material-symbols-outlined"><p className='text-4xl absolute lg:bottom-4 right-44 lg:right-8 lg:h-12 lg:w-12 lg:pl-1 lg:rounded-3xl lg:text-black lg:bg-white'>home</p></span>
+      <span className="material-symbols-outlined"><p className='text-4xl absolute lg:bottom-4 right-40 lg:right-8 lg:h-12 lg:w-12 lg:pl-1 lg:rounded-3xl text-black lg:bg-white'>home</p></span>
       </a>
+      </div>
     </div>
   )
 }

@@ -42,9 +42,11 @@ const Page = () => {
           <p className='text-black lg:ml-2 ml-2 font-extrabold'>{repo.visibility}</p>
         </div>
       ))}
+      <div className="bg-white h-20 w-full border-2 border-black">
       <a href="/">
-      <span class="material-symbols-outlined"><p className='text-4xl absolute lg:bottom-4 right-40 lg:right-8 lg:h-12 lg:w-12 lg:pl-1 lg:rounded-3xl lg:text-black lg:bg-white'>home</p></span>
+      <span className="material-symbols-outlined"><p className='text-4xl absolute lg:bottom-4 right-40 lg:right-8 lg:h-12 lg:w-12 lg:pl-1 lg:rounded-3xl text-black lg:bg-white'>home</p></span>
       </a>
+      </div>
     </div>
   );
 };

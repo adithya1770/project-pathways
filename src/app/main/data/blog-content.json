@@ -7,5 +7,14 @@
         "Tech_used":"React.js, Supabase",
         "image":"",
         "date":"May 2024"    
+    },
+    {
+        "key": 2,
+        "title":"Learning React Native",
+        "desc":"Built a music app for indie artist using react native. Took user revies using supabase.",
+        "projects":"RawRhythms",
+        "Tech_used":"React Native, Supabase",
+        "image":"",
+        "date":"July 2024" 
     }
 ]
